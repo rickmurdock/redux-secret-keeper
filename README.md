@@ -36,4 +36,4 @@ Create an application that uses authentication.
 
 Once complete, you should see the following functionality in your application:
 
-* SecretKeeper.gif
+* ![SecretKeeper.gif](https://github.com/rickmurdock/redux-secret-keeper/blob/master/SecretKeeper.gif)
