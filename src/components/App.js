@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import '../styles/App.css';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -11,10 +11,9 @@ class App extends Component {
           <h6>Your Trapper-Keeper for secrets. Sign up today. It's easy, free and about as reliable as somebody you sort of trust!</h6>
           <hr/>
           <h6 className="text-muted">Create an account to get started, or log back in if you're already a Secret Keeper.</h6>
-          <button className="btn btn-primary" style={{marginRight:5}}>Register</button>
-          <button type="button" className="btn btn-success">Log Back In</button>
+          <Link className="btn btn-primary" to="/register" style={{marginRight:5}}>Register</Link>
+          <Link className="btn btn-success" to="/login">Log Back In</Link>
         </div>
-
       </div>
     );
   }

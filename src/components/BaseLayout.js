@@ -11,8 +11,8 @@ function BaseLayout ({children}) {
           <img src={logo} className="App-logo" alt="logo" style={{width:"10%", height:"10%"}}/>
           <NavLink to="/" className="nav-item nav-link" style={{color:"white"}}>SecretKeeper</NavLink>
           <NavLink to="/" className="nav-item nav-link">Home</NavLink>
-          <NavLink to="/users" className="nav-item nav-link">Register</NavLink>
-          <NavLink to="/users" className="nav-item nav-link">Log In</NavLink>
+          <NavLink to="/register" className="nav-item nav-link">Register</NavLink>
+          <NavLink to="/login" className="nav-item nav-link">Log In</NavLink>
           <button className="btn btn-danger ml-auto">Log Out</button>
         </div>
       </nav>
