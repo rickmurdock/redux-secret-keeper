@@ -6,6 +6,7 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import BaseLayout from './components/BaseLayout';
 import RegisterForm from './components/RegisterForm';
+import LoginForm from './components/LoginForm';
 import { Provider } from "react-redux";
 import store from './store/store';
 
@@ -17,7 +18,7 @@ ReactDOM.render(
         <Switch>
           <Route exact path="/" component={App} />
           <Route path="/register" component={RegisterForm} />
-          <Route path="/login" component={App} />
+          <Route path="/login" component={LoginForm} />
         </Switch>
       </BaseLayout>
     </BrowserRouter>
